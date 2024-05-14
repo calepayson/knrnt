@@ -8,20 +8,7 @@ Workspaces and tests for excercises in The C Programming Language by Kernighan a
 
 ## Usage
 
-This repo has the follow format:
-
-knrnt
-- chapter_1
-- chapter_2
-- chapter_3
-- chapter_4
-- chapter_5
-- chapter_6
-- chapter_7
-- chapter_8
-- README.md
-
-To start an exercise navigate to the appropriate chapter folder and open the corresponding file
+To start an exercise navigate to the exercises folder and open the corresponding file
 
 ```bash
 $ cd chapter_1
