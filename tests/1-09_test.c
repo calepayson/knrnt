@@ -60,6 +60,6 @@ void test(char *input, char *expected) {
             printf("FAILURE!\n");
         }
     } else {
-        printf("FAILURE: use printf() to print the result\n");
+        printf("FAILURE: you need to output the result\n");
     }
 }
