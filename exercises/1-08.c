@@ -25,28 +25,7 @@
  *  # of blanks must be on line 1, # of tabs must be on line 2, and # of 
  *  newlines must be on line three*/
 void main1(void) {
-    int c, blanks, tabs, newlines;
-
-    blanks = tabs = newlines = 0;
-
-    while ((c = getchar()) != EOF) {
-        switch (c) {
-            case ' ':
-                blanks++;
-                break;
-            case '\t':
-                tabs++;
-                break;
-            case '\n':
-                newlines++;
-                break;
-            default:
-                break;
-        }
-    }
-    printf("blanks: %d\n"
-           "tabs: %d\n"
-           "newlines: %d\n", blanks, tabs, newlines);
+    // YOUR CODE HERE
 }
 
 #ifndef TESTING
